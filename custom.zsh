@@ -7,6 +7,8 @@ alias ga="git add"
 alias gc="git commit"
 alias gb="git branch"
 alias gr="git rebase"
+alias gd="git diff"
+alias gds="git diff --staged"
 alias gap="git add -p"
 alias gri="git rebase -i"
 alias glog="git log --oneline --decorate --all --graph"
@@ -26,3 +28,7 @@ alias dcrun="docker-compose run --rm"
 
 ## Others
 alias zsh_conf="vim ~/.oh-my-zsh/custom/custom.zsh"
+alias reload_conf="source ~/.zshrc"
+
+# Themes
+ZSH_THEME="avit"
