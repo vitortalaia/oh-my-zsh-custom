@@ -20,7 +20,7 @@ alias gpull="git pull --rebase -p && gbclear"
 alias gpush="git push"
 alias gpushf="git push --force-with-lease"
 alias gpushu="gpush -u origin HEAD"
-alias gbclear="git fetch --all --prune; git branch --merged origin/master | grep -v \"\\*\" | grep -v \"\\  master\" | xargs -n 1 git branch -d"
+alias gbclear="git fetch --all --prune; git branch --merged origin/master | grep -v "\*" | grep -v "\  master" | xargs -n 1 git branch -d"
 
 ## Docker
 alias dc="docker-compose"
